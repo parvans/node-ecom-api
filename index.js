@@ -19,8 +19,8 @@ app.get('/',(req, res)=>{
 });
 
 app.use("/user", userRoute)
-// app.use("/product", productRoute)
-// app.use("/purchase", purchaseRoute)
+app.use("/product", productRoute)
+app.use("/purchase", purchaseRoute)
 
 app.listen(PORT,()=>{
     console.log("Server is running...");
