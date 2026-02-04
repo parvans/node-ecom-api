@@ -4,8 +4,8 @@ import { connectDB } from "./lib/db.js";
 import cookieParser from "cookie-parser";
 
 import userRoute from "./routes/user.routes.js";
-// import productRoute from "./routes/product.routes.js";
-// import purchaseRoute from "./routes/purchase.routes.js";
+import productRoute from "./routes/product.routes.js";
+import purchaseRoute from "./routes/purchase.routes.js";
 
 config();
 const app = express();
